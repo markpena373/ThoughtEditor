@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/category_icon"
+        android:icon="@drawable/category_icon"
+        android:onClick="toCategories"
+        android:title="Category Button"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/main_menu_settings"
+        android:title="@string/settings_label"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="title_text">New thought..</string>
+    <string name="thought_bubble_title">Thought Bubble</string>
+    <string name="new_thoughts_prompt">New thought..</string>
+    <string name="new_thought_hint">Type out your thought here</string>
+    <string name="entry_popup_title_label">Title: </string>
+    <string name="entry_popup_title_hint">Enter title..</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_category_title">Choose Category..</string>
+    <string name="add_category">+</string>
+    <string name="categories_label">Category</string>
+    <string name="new_category_hint">New category name..</string>
+    <string name="name_label">Name</string>
+    <string name="date_label">Date</string>
+    <string name="length_label">Length</string>
+    <string name="settings_label">Settings</string>
+    <string name="thoughts_label">Thoughts</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_grid_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.test.CategoriesGrid">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/categories_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+
+        <TextView
+            android:id="@+id/category_grid_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categories_label"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <GridView
+        android:id="@+id/category_grid"
+        android:layout_below="@id/categories_toolbar"
+        android:padding="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:stretchMode="spacingWidth"
+        android:verticalSpacing="25dp"
+        android:numColumns="3" />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="28dp"
+        android:gravity="center"
+        android:onClick="addCategory"
+        android:text="+"
+        android:textSize="32sp" />
+</RelativeLayout>

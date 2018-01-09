@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="14dp"
+    android:orientation="vertical"
+    android:background="@drawable/popup_visual_layout"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/new_category_name"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_category_hint"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/new_category_cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_category_name"
+        android:onClick="popupCancel"
+        android:padding="10dp"
+        android:text="@string/cancel"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/new_category_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_category_name"
+        android:layout_toEndOf="@id/new_category_cancel_button"
+        android:onClick="popupSubmit"
+        android:padding="10dp"
+        android:text="@string/submit"
+        android:textSize="12sp" />
+</RelativeLayout>
